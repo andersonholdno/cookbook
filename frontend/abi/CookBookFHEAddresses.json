@@ -1,0 +1,7 @@
+{
+  "sepolia": {
+    "address": "0xe2D72D6b34fe1b3D49E6BDD63704760CFa48e05c",
+    "chainId": 11155111,
+    "chainName": "Sepolia"
+  }
+}
