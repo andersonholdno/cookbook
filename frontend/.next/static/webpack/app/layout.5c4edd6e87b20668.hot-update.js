@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/layout",{
+
+/***/ "(app-pages-browser)/./app/globals.css":
+/*!*************************!*\
+  !*** ./app/globals.css ***!
+  \*************************/
+/***/ ((module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"ee944898b0fe\");\nif (true) { module.hot.accept() }\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9nbG9iYWxzLmNzcyIsIm1hcHBpbmdzIjoiOzs7O0FBQUEsaUVBQWUsY0FBYztBQUM3QixJQUFJLElBQVUsSUFBSSxpQkFBaUIiLCJzb3VyY2VzIjpbIi9Vc2Vycy90b29sYm94Yi9EZXNrdG9wL1pBTUEv5Y2B5pyI6aG555uuL+mjn+iwsS9hY3Rpb24vZnJvbnRlbmQvYXBwL2dsb2JhbHMuY3NzIl0sInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IFwiZWU5NDQ4OThiMGZlXCJcbmlmIChtb2R1bGUuaG90KSB7IG1vZHVsZS5ob3QuYWNjZXB0KCkgfVxuIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/globals.css\n"));
+
+/***/ }),
+
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fcomponents%2FConnectWalletButton.tsx%22%2C%22ids%22%3A%5B%22default%22%5D%7D&server=false!":
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fcomponents%2FConnectWalletButton.tsx%22%2C%22ids%22%3A%5B%22default%22%5D%7D&server=false! ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./app/globals.css */ \"(app-pages-browser)/./app/globals.css\"));\n;\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./components/ConnectWalletButton.tsx */ \"(app-pages-browser)/./components/ConnectWalletButton.tsx\"));\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz0lN0IlMjJyZXF1ZXN0JTIyJTNBJTIyJTJGVXNlcnMlMkZ0b29sYm94YiUyRkRlc2t0b3AlMkZaQU1BJTJGJUU1JThEJTgxJUU2JTlDJTg4JUU5JUExJUI5JUU3JTlCJUFFJTJGJUU5JUEzJTlGJUU4JUIwJUIxJTJGYWN0aW9uJTJGZnJvbnRlbmQlMkZhcHAlMkZnbG9iYWxzLmNzcyUyMiUyQyUyMmlkcyUyMiUzQSU1QiU1RCU3RCZtb2R1bGVzPSU3QiUyMnJlcXVlc3QlMjIlM0ElMjIlMkZVc2VycyUyRnRvb2xib3hiJTJGRGVza3RvcCUyRlpBTUElMkYlRTUlOEQlODElRTYlOUMlODglRTklQTElQjklRTclOUIlQUUlMkYlRTklQTMlOUYlRTglQjAlQjElMkZhY3Rpb24lMkZmcm9udGVuZCUyRmNvbXBvbmVudHMlMkZDb25uZWN0V2FsbGV0QnV0dG9uLnRzeCUyMiUyQyUyMmlkcyUyMiUzQSU1QiUyMmRlZmF1bHQlMjIlNUQlN0Qmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSw0SkFBeUc7QUFDekc7QUFDQSxrTUFBeUoiLCJzb3VyY2VzIjpbIiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy90b29sYm94Yi9EZXNrdG9wL1pBTUEv5Y2B5pyI6aG555uuL+mjn+iwsS9hY3Rpb24vZnJvbnRlbmQvYXBwL2dsb2JhbHMuY3NzXCIpO1xuO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIsIHdlYnBhY2tFeHBvcnRzOiBbXCJkZWZhdWx0XCJdICovIFwiL1VzZXJzL3Rvb2xib3hiL0Rlc2t0b3AvWkFNQS/ljYHmnIjpobnnm64v6aOf6LCxL2FjdGlvbi9mcm9udGVuZC9jb21wb25lbnRzL0Nvbm5lY3RXYWxsZXRCdXR0b24udHN4XCIpO1xuIl0sIm5hbWVzIjpbXSwiaWdub3JlTGlzdCI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fapp%2Fglobals.css%22%2C%22ids%22%3A%5B%5D%7D&modules=%7B%22request%22%3A%22%2FUsers%2Ftoolboxb%2FDesktop%2FZAMA%2F%E5%8D%81%E6%9C%88%E9%A1%B9%E7%9B%AE%2F%E9%A3%9F%E8%B0%B1%2Faction%2Ffrontend%2Fcomponents%2FConnectWalletButton.tsx%22%2C%22ids%22%3A%5B%22default%22%5D%7D&server=false!\n"));
+
+/***/ })
+
+});

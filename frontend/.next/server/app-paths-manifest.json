@@ -1,0 +1,6 @@
+{
+  "/mine/page": "app/mine/page.js",
+  "/publish/page": "app/publish/page.js",
+  "/recipe/[id]/page": "app/recipe/[id]/page.js",
+  "/page": "app/page.js"
+}
