@@ -14,8 +14,9 @@ export default function Mine() {
   useEffect(() => {
     const run = async () => {
       try {
-        if (!window.ethereum) return;
-        const provider = new ethers.BrowserProvider(window.ethereum as any);
+        const eth = (typeof window !== 'undefined' ? (window as any).ethereum : undefined);
+        if (!eth) return;
+        const provider = new ethers.BrowserProvider(eth as any);
         await provider.send("eth_requestAccounts", []);
         const signer = await provider.getSigner();
         const addr = await signer.getAddress();
