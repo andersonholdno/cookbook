@@ -63,12 +63,13 @@ export default function RecipeDetail() {
   useEffect(() => {
     const run = async () => {
       try {
-        if (!window.ethereum) {
+        const eth = (typeof window !== 'undefined' ? (window as any).ethereum : undefined);
+        if (!eth) {
           setMessage("请先连接钱包 (MetaMask)");
           setLoading(false);
           return;
         }
-        const provider = new ethers.BrowserProvider(window.ethereum as any);
+        const provider = new ethers.BrowserProvider(eth as any);
         const network = await provider.getNetwork();
         const cidNum = Number(network.chainId);
         setChainId(cidNum);
@@ -166,8 +167,9 @@ export default function RecipeDetail() {
   const decrypt = async () => {
     try {
       if (!recipe || !contractAddress) return;
-      if (!window.ethereum) throw new Error("请先连接钱包");
-      const provider = new ethers.BrowserProvider(window.ethereum as any);
+      const eth = (typeof window !== 'undefined' ? (window as any).ethereum : undefined);
+      if (!eth) throw new Error("请先连接钱包");
+      const provider = new ethers.BrowserProvider(eth as any);
       await provider.send("eth_requestAccounts", []);
       const signer = await provider.getSigner();
       const network = await provider.getNetwork();
@@ -223,10 +225,11 @@ export default function RecipeDetail() {
   const withdraw = async () => {
     try {
       if (!recipe || !contractAddress) return;
-      if (!window.ethereum) throw new Error("请先连接钱包");
+      const eth2 = (typeof window !== 'undefined' ? (window as any).ethereum : undefined);
+      if (!eth2) throw new Error("请先连接钱包");
       if (!hasDecrypted) throw new Error("请先完成解密");
       setWithdrawing(true);
-      const provider = new ethers.BrowserProvider(window.ethereum as any);
+      const provider = new ethers.BrowserProvider(eth2 as any);
       await provider.send("eth_requestAccounts", []);
       const signer = await provider.getSigner();
       const network = await provider.getNetwork();
